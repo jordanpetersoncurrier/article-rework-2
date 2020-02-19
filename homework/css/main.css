@@ -1,0 +1,45 @@
+body,
+figure {
+    background-color: purple;
+    margin: 0;
+}
+
+
+body {
+  max-width: 60ems; /*960px (16px=1em) */
+  padding: 1em 1em 1em 1em; /* padding-top, padding right, padding-bottom, padding left */
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  /*responsive images */
+
+img {width: auto;
+max -width: 100%;
+height: auto;
+}
+
+/*hero figure/img */
+
+figure.hero {
+  margin: 0 -1em;
+}
+
+figure.hro img{
+    margin-tops: 3em;
+}
+
+figure.hero figcaption {
+    margin: 0 1em;
+}
+/*typographic details */
+
+p {
+  font-size: 1.3em;
+  line-hieght: 1.5; /*unitless, please! */
+}
+
+p.byline {
+  font-weight: bold;
+  text-transform: uppercase;
+}
